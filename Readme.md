@@ -5,4 +5,4 @@
 
 + 제작중인 어플리케이션 이미지
 - ![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/1ac551fe-33f5-4f60-98ea-7bef19037599)
-- IoT 소음측정 디바이스별로 측정 한 소읍값 그래프화
+- IoT 소음측정 디바이스별로 측정 한 소음값 그래프화

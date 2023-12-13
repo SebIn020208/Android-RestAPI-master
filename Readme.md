@@ -12,8 +12,6 @@
 		- 디바이스의 정보를 변경하거나 조회하는 REST API
 		- 디바이스의 로그 정보를 조회하는 REST API
 
-![](figures/architecture.png)
-
 ### 1. REST API 설계
 - 다음 프로그램 코드를 실행시키기 위해서는 다음 형식의 **REST API**가 준비되어 있어야 합니다.
 	- 디바이스 목록 조회
@@ -63,49 +61,6 @@
 1. [AWS IoT로 DHT-11 센서 및 LED 제어](https://kwanulee.github.io/AWS_IoT_DHT11/)
 2. [AWS Lambda를 이용한 Device Monitoring 실습](https://kwanulee.github.io/DeviceMonitoringWithLambda/)
 3. [DynamoDB를 이용한 백엔드 구축하기](https://kwanulee.github.io/DynamoDB/)
-4. [API Gateway를 통한 Device Shadow 액세스 하기](https://kwanulee.github.io/APIGateway/#3)
-
-### 3. Android 앱 설치 및 실행
-- 설치 방법
-	- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
-	- 현재 배포된 버전은 **API 29 이하** 버전에서 테스트됨
-
-		![](figures/install.png)
-
-- 초기 실행 화면
-
-	![](figures/screenshot1.png)
-
-- 아래 세가지 버튼을 클릭하기 전에 API URI를 입력해야 합니다.
-	- Amazon API Gateway로 부터 만들어진  API 서버 URL을 기록해 둔다. 
-		
-		```
-		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod 
-		```
-	- 사물목록 조회 API URI
-		
-		```
-		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices
-		```
-	
-	- 사물상태 조회/변경 API URI
-
-		```
-		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices/{devices_name}
-		```
-	- 사물로그 조회 API URI
-
-		```
-		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices/{devices_name}/log
-		```
-
-+ 추가 로직
-
-- 사물 상태 조회/변경 인터페이스에서 소음 측정 할 때 110값 이상 측정 시 "경고 알림" 버튼 활성화
-	- 위 버튼을 누를시 경고등 표시
-
-+ 제작중인 어플리케이션 이미지
-- ![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/1ac551fe-33f5-4f60-98ea-7bef19037599)
-- IoT 소음측정 디바이스별로 측정 한 소읍값 그래프화
+4. [API Gateway를 통한 Device Shadow 액세스 하기](https://kwanulee.github.io/APIG송
 
 		

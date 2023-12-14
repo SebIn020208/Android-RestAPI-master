@@ -12,7 +12,7 @@
        		- 조회 시작 = 소음 측정 / 조회 종료 = 측정 종료
            	- 경고 알람 = 사물 상태 조회/변경 인터페이스에서 소음 측정 할 때 110값 이상 측정 시 "경고 알람" 버튼 활성화
 	- 로그 조회 
-	![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/32cb8f7b-0e65-40ce-8941-bc65ca849f8d)
+	- ![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/32cb8f7b-0e65-40ce-8941-bc65ca849f8d)
 		- 측정되었던 날짜를 설정하여 소음 측정 값 확인 가능
 
 

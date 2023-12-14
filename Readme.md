@@ -8,7 +8,7 @@
  	- ![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/4004b98d-f5a5-4cde-b145-d62fdb48dc5b)
 		- 방마다 설치되어 있는 IoT 디바이스가 나타남
     	- 사물 상태 조회/변경
-       	-![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/c36ff6a6-405a-4eda-b3c3-9e15f7e775a5)
+       	- ![image](https://github.com/SebIn020208/Android-RestAPI-master/assets/115605128/c36ff6a6-405a-4eda-b3c3-9e15f7e775a5)
        		- 조회 시작 = 소음 측정 / 조회 종료 = 측정 종료
            	- 경고 알람 = 사물 상태 조회/변경 인터페이스에서 소음 측정 할 때 110값 이상 측정 시 "경고 알람" 버튼 활성화
 	- 로그 조회 
